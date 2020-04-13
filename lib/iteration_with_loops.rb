@@ -10,7 +10,7 @@ def join_nested_strings(src)
   while count < src.length do
     i = 0 
     while i < src[count].length do
-      if src[count][i] 0 
+      if src[count][i] 
         message += src[count][i].to_s + " "
       end 
       i += 1 
